@@ -1,0 +1,50 @@
+.image-container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    margin-top: 10px;
+    border:rgb(36, 193, 199) 3px solid;
+    border-radius: 25%;
+  }
+.person-job{
+    color: rgb(36, 193, 199);
+}
+.prev-btn,
+.next-btn {
+  color: rgb(36, 193, 199);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-primary-5);
+}
+
+.random-btn {
+    margin-top: 0.5rem;
+    background: rgb(216, 241, 241);
+    color: rgb(36, 193, 199);
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border-color: transparent;
+    cursor: pointer;
+  }
+.random-btn:hover{
+    color: var(--clr-primary-5);
+}
+
+
